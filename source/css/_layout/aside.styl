@@ -225,6 +225,25 @@
             display: inline-block
             float: right
 
+  .card-announcement .announcement-button,    
+  .card-announcement .social-button
+    margin .6rem 0 0 0;
+    text-align center
+    
+  .card-announcement .announcement-button  a,
+  .card-announcement .social-button  a
+    display block
+    background-color var(--btn-bg)
+    color var(--btn-color)
+    line-height 1.6rem
+    transition all .3s
+    position relative
+    z-index 1
+
+  .card-announcement .announcement-button  a:first-child,
+  .card-announcement .social-button  a:first-child
+    margin-bottom .4rem
+
 @media screen and (max-width: 900px)
   .layout_page
     flex-direction: column
